@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a148c;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 860px;
+    margin: 40px auto;
+    padding: 30px 25px;
+    background-color: #f8f3fa;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(155, 89, 182, 0.15);
+    border: 1px solid #e0cfee;
+}
+
+h1 {
+    color: #6a1b9a;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+form input[type="text"] {
+    border: 2px solid #ba68c8;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+form button {
+    background-color: #ab47bc;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #8e24aa;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(186, 104, 200, 0.2);
+    transition: transform 0.2s;
+    background-color: #f3e5f5;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-success {
+    background-color: #ce93d8;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: bold;
+    color: #4a148c;
+    transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #ab47bc;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 15px;
+    }
+}
+
